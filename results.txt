@@ -1,0 +1,193 @@
+Count 0.97 0.5 df
+		Activation function: relu
+		Loss function: categorical_hinge
+		Layers: (512, 256)
+		Test set evaluation: [('loss', 1.0041575819759045), ('categorical_accuracy', 0.4966101695925502), ('top2_acc', 0.8733050849478123), ('top3_acc', 0.9610169489504927)]
+		Confusion Matrix
+		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+		[[ 14   5  32  76  17  14 134   3]
+		 [  2  90  82  44  21  36  17   3]
+		 [  0  11 158  12  57  12  33  12]
+		 [  1   1  17 213   4   5  53   1]
+		 [  0   1  76  17 126  20  46   9]
+		 [  0  10  15  17   9 239   1   4]
+		 [  7   3  27  31  31   3 188   5]
+		 [  2   2  43  14  22  18  50 144]]
+Existance 0.97 0.5
+		Activation function: relu
+		Loss function: categorical_hinge
+		Layers: (512, 256)
+		Test set evaluation: [('loss', 0.9561330255815539), ('categorical_accuracy', 0.40805084755865195), ('top2_acc', 0.5423728815579818), ('top3_acc', 0.6656779663037445)]
+		Confusion Matrix
+		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+		[[ 44  46  15  41 121   5  15   8]
+		 [ 11 194  22  11  36  16   1   4]
+		 [  9  66  53   8 120   7   8  24]
+		 [ 12  20   6 177  54   6  16   4]
+		 [  8  42  34  12 159  14   6  20]
+		 [  2  56  11  12  23 183   2   6]
+		 [ 35  28  15  24 161   1  23   8]
+		 [ 18  31  31   5  68   4   8 130]]
+
+
+		[0.9561330255815539, 0.40805084755865195, 0.5423728815579818, 0.6656779663037445]
+
+Existance 0.97 0.5
+		Activation function: relu
+		Loss function: categorical_hinge
+		Layers: (512,)
+		Test set evaluation: [('loss', 1.0933733358221538), ('categorical_accuracy', 0.43050847447524637), ('top2_acc', 0.6550847457627119), ('top3_acc', 0.7949152544393377)]
+		Confusion Matrix
+		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+		[[ 83  27  19  46  17  16  62  25]
+		 [ 12 170  24  21  19  30   5  14]
+		 [ 14  48  63  17  75  19  22  37]
+		 [ 31  10   6 174  17  18  28  11]
+		 [ 20  19  56  14  84  25  38  39]
+		 [  2  36  12  10  10 212   5   8]
+		 [ 88  15  32  25  40   8  66  21]
+		 [ 16  21  34   6  26   8  20 164]]
+
+
+		[1.0933733358221538, 0.43050847447524637, 0.6550847457627119, 0.7949152544393377]
+Existance 0.97 0.25
+		Activation function: relu
+		Loss function: categorical_hinge
+		Layers: (512,)
+		Test set evaluation: [('loss', 0.9907453563253759), ('categorical_accuracy', 0.4961864405769413), ('top2_acc', 0.730508474677296), ('top3_acc', 0.8440677968122191)]
+		Confusion Matrix
+		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+		[[ 72  21  10  65  17   7  91  12]
+		 [ 23 207  16  13  11  13  12   0]
+		 [ 19  28  97  12  74   5  35  25]
+		 [ 17   9   5 231   4   5  23   1]
+		 [ 29   6  66  19 103   5  56  11]
+		 [  5  22  17  19  15 205   7   5]
+		 [ 76  10  26  38  22   0 113  10]
+		 [ 28  12  36  14  35   2  25 143]]
+
+
+		[0.9907453563253759, 0.4961864405769413, 0.730508474677296, 0.8440677968122191]
+Exisance 0.97 0.1
+		Activation function: relu
+		Loss function: categorical_hinge
+		Layers: (512,)
+		Test set evaluation: [('loss', 0.9705373721607661), ('categorical_accuracy', 0.5097457627118644), ('top2_acc', 0.7538135595240836), ('top3_acc', 0.8559322031877808)]
+		Confusion Matrix
+		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+		[[ 72  21  23  43  22  12  89  13]
+		 [ 20 199  38   6   8  16   6   2]
+		 [ 20  22 108  11  78  11  22  23]
+		 [ 24   9  11 196   8  17  26   4]
+		 [ 21   5  80  12 112  14  32  19]
+		 [  2   9  10   7   8 249   5   5]
+		 [ 75  11  45  16  43   4  91  10]
+		 [ 17   9  34   4  32   8  15 176]]
+
+
+		[0.9705373721607661, 0.5097457627118644, 0.7538135595240836, 0.8559322031877808]
+Count 0.97 0.5
+		Activation function: relu
+		Loss function: categorical_hinge
+		Layers: (512,)
+		Test set evaluation: [('loss', 0.98422303805917), ('categorical_accuracy', 0.504661016747103), ('top2_acc', 0.7402542374901853), ('top3_acc', 0.8567796610169491)]
+		Confusion Matrix
+		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+		[[136  21  17  45  26   6   0  44]
+		 [ 18 164  42  10  16  17   0  28]
+		 [ 10  29  94  10  86   4   0  62]
+		 [ 36   6  12 203  11   2   0  25]
+		 [ 23   5  52  14 140   6   0  	55]
+		 [  6  25  12   9  11 205   0  27]
+		 [114   7  35  33  49   1   0  56]
+		 [  7   6  14   3  15   1   0 249]]
+
+
+		[0.958422303805917, 0.504661016747103, 0.7402542374901853, 0.8567796610169491]
+Count 0.97 0.25
+		Activation function: relu
+		Loss function: categorical_hinge
+		Layers: (512,)
+		Test set evaluation: [('loss', 0.9703665567656695), ('categorical_accuracy', 0.5122881355932203), ('top2_acc', 0.7610169489504928), ('top3_acc', 0.8881355930182894)]
+		Confusion Matrix
+		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+		[[  4  25  16  79   4   8 146  13]
+		 [  0 191  40  31   1  10  17   5]
+		 [  0  40 135  16  14   6  60  24]
+		 [  0   8   3 241   0   2  38   3]
+		 [  0   8  89  18  49  13  88  30]
+		 [  0  44  10  21   0 201   9  10]
+		 [  1   9  23  38   9   1 208   6]
+		 [  0  10  33  19   3   2  48 180]]
+
+
+		[0.9703665567656695, 0.5122881355932203, 0.7610169489504928, 0.8881355930182894]
+Count 0.97 0.1
+		Activation function: relu
+		Loss function: categorical_hinge
+		Layers: (512,)
+		Test set evaluation: [('loss', 0.8724426142239975), ('categorical_accuracy', 0.5627118644067797), ('top2_acc', 0.8754237290156089), ('top3_acc', 0.9567796610169491)]
+		Confusion Matrix
+		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+		[[ 58  10  39  47  28   9  79  25]
+		 [  6 172  38  16  29  16   5  13]
+		 [  6  13 160   8  69   5  10  24]
+		 [ 12   2  12 219   8   7  24  11]
+		 [  5   1  77  12 138   6  18  38]
+		 [  0   9  13   9   3 250   5   6]
+		 [ 32   5  53  27  33   3 122  20]
+		 [  2   1  47   4  19   1  12 209]]
+
+
+		[0.8724426142239975, 0.5627118644067797, 0.8754237290156089, 0.9567796610169491]
+tf-idf 0.97 0.5
+		Activation function: relu
+		Loss function: categorical_hinge
+		Layers: (512,)
+		Test set evaluation: [('loss', 0.9490524128331976), ('categorical_accuracy', 0.5088983048826962), ('top2_acc', 0.7436440679986598), ('top3_acc', 0.851694915456287)]
+		Confusion Matrix
+		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+		[[ 72  27  20  46  19   8  82  21]
+		 [ 16 198  27  10   8  19   7  10]
+		 [ 16  28  96  10  71   8  27  39]
+		 [ 25  15  16 190   7   6  24  12]
+		 [ 23  12  74  13 109  14  24  26]
+		 [  4  28   8   7   5 229   4  10]
+		 [ 69  13  28  22  37   5 102  19]
+		 [  7   7  25   6  24   5  16 205]]
+
+
+		[0.9490524128331976, 0.5088983048826962, 0.7436440679986598, 0.851694915456287]
+tf-idf 0.97 0.25
+		Activation function: relu
+		Loss function: categorical_hinge
+		Layers: (512,)
+		Test set evaluation: [('loss', 0.9389001565464472), ('categorical_accuracy', 0.5165254237288136), ('top2_acc', 0.7567796612189988), ('top3_acc', 0.8673728811538826)]
+		Confusion Matrix
+		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+		[[ 62  33  13  54  21  12  79  21]
+		 [ 11 229  15  12   4  19   3   2]
+		 [ 14  28 100  12  77   8  24  32]
+		 [ 17  14   6 214   4  10  25   5]
+		 [ 15  13  76  12  95  16  36  32]
+		 [  0  21   8  13   7 238   2   6]
+		 [ 65  18  31  28  32   6  93  22]
+		 [ 13  16  31   5  22   5  15 188]]
+
+
+		[0.9389001565464472, 0.5165254237288136, 0.7567796612189988, 0.8673728811538826]
+tf-idf 0.97 0.1
+		Activation function: relu
+		Loss function: categorical_hinge
+		Layers: (512,)
+		Test set evaluation: [('loss', 0.913820521508233), ('categorical_accuracy', 0.5338983051857706), ('top2_acc', 0.7703389830508475), ('top3_acc', 0.8771186442698462)]
+		Confusion Matrix
+		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+		[[ 99  22  18  38  26  12  66  14]
+		 [ 24 219  11   7  11  17   5   1]
+		 [ 15  22  93  10  95   7  27  26]
+		 [ 36   6   4 191   7  11  34   6]
+		 [ 22   6  61   9 131   9  26  31]
+		 [  4  19   5  11   6 242   2   6]
+		 [ 90  13  33  16  32   3  95  13]
+		 [ 14   4  27  12  27   4  17 190]]
