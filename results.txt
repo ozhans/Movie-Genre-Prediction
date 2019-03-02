@@ -1,193 +1,266 @@
-Count 0.97 0.5 df
-		Activation function: relu
-		Loss function: categorical_hinge
-		Layers: (512, 256)
-		Test set evaluation: [('loss', 1.0041575819759045), ('categorical_accuracy', 0.4966101695925502), ('top2_acc', 0.8733050849478123), ('top3_acc', 0.9610169489504927)]
-		Confusion Matrix
-		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
-		[[ 14   5  32  76  17  14 134   3]
-		 [  2  90  82  44  21  36  17   3]
-		 [  0  11 158  12  57  12  33  12]
-		 [  1   1  17 213   4   5  53   1]
-		 [  0   1  76  17 126  20  46   9]
-		 [  0  10  15  17   9 239   1   4]
-		 [  7   3  27  31  31   3 188   5]
-		 [  2   2  43  14  22  18  50 144]]
-Existance 0.97 0.5
-		Activation function: relu
-		Loss function: categorical_hinge
-		Layers: (512, 256)
-		Test set evaluation: [('loss', 0.9561330255815539), ('categorical_accuracy', 0.40805084755865195), ('top2_acc', 0.5423728815579818), ('top3_acc', 0.6656779663037445)]
-		Confusion Matrix
-		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
-		[[ 44  46  15  41 121   5  15   8]
-		 [ 11 194  22  11  36  16   1   4]
-		 [  9  66  53   8 120   7   8  24]
-		 [ 12  20   6 177  54   6  16   4]
-		 [  8  42  34  12 159  14   6  20]
-		 [  2  56  11  12  23 183   2   6]
-		 [ 35  28  15  24 161   1  23   8]
-		 [ 18  31  31   5  68   4   8 130]]
+existance 0.5
+	Activation function: relu
+	Loss function: categorical_hinge
+	Layers: (512,)
+	Test set evaluation: [('loss', 1.02097628500502), ('categorical_accuracy', 0.44533898294982266), ('top2_acc', 0.6788135595240835), ('top3_acc', 0.813983050645408)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[121  22  12  40  15   7  61  17]
+	 [ 32 159  31  22  17  17   7  10]
+	 [ 22  36  74  10  67   8  34  44]
+	 [ 49  12   3 174   7   6  35   9]
+	 [ 38  14  58  20  75  12  35  43]
+	 [  9  41  16  13  11 188   5  12]
+	 [ 96  11  25  30  31   1  84  17]
+	 [ 28  15  29   9  17   4  17 176]]
+existance 0.25
+	Activation function: relu
+	Loss function: categorical_hinge
+	Layers: (512,)
+	Test set evaluation: [('loss', 0.9850979528184665), ('categorical_accuracy', 0.4915254235267639), ('top2_acc', 0.7317796608148995), ('top3_acc', 0.8487288133572723)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[ 74  24  18  43  16  11  94  15]
+	 [ 22 191  25  11   9  23   7   7]
+	 [ 20  22  87   7  72  14  31  42]
+	 [ 30   8  10 201   5  11  24   6]
+	 [ 35   4  78   8  88  17  44  21]
+	 [  5  14  11   7   8 236   6   8]
+	 [ 84  11  27  25  29   4  97  18]
+	 [ 25   8  29   4  16   6  21 186]]
+existance 0.1
+	Activation function: relu
+	Loss function: categorical_hinge
+	Layers: (512,)
+	Test set evaluation: [('loss', 0.9516359102928033), ('categorical_accuracy', 0.5156779662027198), ('top2_acc', 0.7635593222359479), ('top3_acc', 0.8707627120664564)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[ 89  20  16  37  22   9  88  14]
+	 [ 23 215  17   4  12  16   5   3]
+	 [ 25  23  86   7  78  13  25  38]
+	 [ 48  10   8 190   6   9  18   6]
+	 [ 27   6  73   5 116   7  32  29]
+	 [  4  13   7   7   8 245   4   7]
+	 [ 93   8  35  15  40   1  90  13]
+	 [ 18  10  30   6  26   9  10 186]]
 
 
-		[0.9561330255815539, 0.40805084755865195, 0.5423728815579818, 0.6656779663037445]
+count 0.5
+	Activation function: relu
+	Loss function: categorical_hinge
+	Layers: (512,)
+	Test set evaluation: [('loss', 0.9746063333446696), ('categorical_accuracy', 0.4953389831518723), ('top2_acc', 0.738135593220339), ('top3_acc', 0.8427966103715412)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[ 74  23  24  45  24   9  77  19]
+	 [ 11 181  41   8  16  21   8   9]
+	 [ 15  26 103   6  83   8  23  31]
+	 [ 20  18  12 192  13   9  19  12]
+	 [ 14   8  82  12 116  13  25  25]
+	 [  1  28  11   7   7 224   3  14]
+	 [ 64   9  41  23  42   6  94  16]
+	 [  8   7  37   9  24   9  16 185]]
 
-Existance 0.97 0.5
-		Activation function: relu
-		Loss function: categorical_hinge
-		Layers: (512,)
-		Test set evaluation: [('loss', 1.0933733358221538), ('categorical_accuracy', 0.43050847447524637), ('top2_acc', 0.6550847457627119), ('top3_acc', 0.7949152544393377)]
-		Confusion Matrix
-		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
-		[[ 83  27  19  46  17  16  62  25]
-		 [ 12 170  24  21  19  30   5  14]
-		 [ 14  48  63  17  75  19  22  37]
-		 [ 31  10   6 174  17  18  28  11]
-		 [ 20  19  56  14  84  25  38  39]
-		 [  2  36  12  10  10 212   5   8]
-		 [ 88  15  32  25  40   8  66  21]
-		 [ 16  21  34   6  26   8  20 164]]
+count 0.25
+	Activation function: relu
+	Loss function: categorical_hinge
+	Layers: (512,)
+	Test set evaluation: [('loss', 0.9187355863845954), ('categorical_accuracy', 0.5296610167471029), ('top2_acc', 0.7457627120664564), ('top3_acc', 0.8648305086766259)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[ 71  27  18  46  22   7  77  27]
+	 [ 15 216  17   6  14  17   3   7]
+	 [ 15  24  99   7  87   7  22  34]
+	 [ 19  15   8 205  10   4  20  14]
+	 [ 13   5  58  12 130   7  31  39]
+	 [  1  25   8  10  14 218   6  13]
+	 [ 61  13  37  24  36   2  98  24]
+	 [ 11   5  24   5  21   3  13 213]]
 
-
-		[1.0933733358221538, 0.43050847447524637, 0.6550847457627119, 0.7949152544393377]
-Existance 0.97 0.25
-		Activation function: relu
-		Loss function: categorical_hinge
-		Layers: (512,)
-		Test set evaluation: [('loss', 0.9907453563253759), ('categorical_accuracy', 0.4961864405769413), ('top2_acc', 0.730508474677296), ('top3_acc', 0.8440677968122191)]
-		Confusion Matrix
-		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
-		[[ 72  21  10  65  17   7  91  12]
-		 [ 23 207  16  13  11  13  12   0]
-		 [ 19  28  97  12  74   5  35  25]
-		 [ 17   9   5 231   4   5  23   1]
-		 [ 29   6  66  19 103   5  56  11]
-		 [  5  22  17  19  15 205   7   5]
-		 [ 76  10  26  38  22   0 113  10]
-		 [ 28  12  36  14  35   2  25 143]]
-
-
-		[0.9907453563253759, 0.4961864405769413, 0.730508474677296, 0.8440677968122191]
-Exisance 0.97 0.1
-		Activation function: relu
-		Loss function: categorical_hinge
-		Layers: (512,)
-		Test set evaluation: [('loss', 0.9705373721607661), ('categorical_accuracy', 0.5097457627118644), ('top2_acc', 0.7538135595240836), ('top3_acc', 0.8559322031877808)]
-		Confusion Matrix
-		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
-		[[ 72  21  23  43  22  12  89  13]
-		 [ 20 199  38   6   8  16   6   2]
-		 [ 20  22 108  11  78  11  22  23]
-		 [ 24   9  11 196   8  17  26   4]
-		 [ 21   5  80  12 112  14  32  19]
-		 [  2   9  10   7   8 249   5   5]
-		 [ 75  11  45  16  43   4  91  10]
-		 [ 17   9  34   4  32   8  15 176]]
+count 0.1
+	Activation function: relu
+	Loss function: categorical_hinge
+	Layers: (512,)
+	Test set evaluation: [('loss', 0.8883236787076724), ('categorical_accuracy', 0.5483050846447379), ('top2_acc', 0.7877118644067796), ('top3_acc', 0.879661016747103)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[ 95  31  21  40  17   8  67  16]
+	 [ 24 223  20   5   6  14   1   2]
+	 [ 16  27 112   4  80  10  19  27]
+	 [ 31   7  14 202   5   9  19   8]
+	 [ 20   8  72   7 126  11  22  29]
+	 [  2  16   8   7   3 247   3   9]
+	 [ 78  11  41  19  38   3  91  14]
+	 [ 14   7  27  10  25   4  10 198]]
 
 
-		[0.9705373721607661, 0.5097457627118644, 0.7538135595240836, 0.8559322031877808]
-Count 0.97 0.5
-		Activation function: relu
-		Loss function: categorical_hinge
-		Layers: (512,)
-		Test set evaluation: [('loss', 0.98422303805917), ('categorical_accuracy', 0.504661016747103), ('top2_acc', 0.7402542374901853), ('top3_acc', 0.8567796610169491)]
-		Confusion Matrix
-		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
-		[[136  21  17  45  26   6   0  44]
-		 [ 18 164  42  10  16  17   0  28]
-		 [ 10  29  94  10  86   4   0  62]
-		 [ 36   6  12 203  11   2   0  25]
-		 [ 23   5  52  14 140   6   0  	55]
-		 [  6  25  12   9  11 205   0  27]
-		 [114   7  35  33  49   1   0  56]
-		 [  7   6  14   3  15   1   0 249]]
+tf-idf 0.5
+	Activation function: relu
+	Loss function: categorical_hinge
+	Layers: (512,)
+	Test set evaluation: [('loss', 0.8457249540393635), ('categorical_accuracy', 0.5466101692894758), ('top2_acc', 0.7631355930182894), ('top3_acc', 0.8686440679986598)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[ 94  30  13  58  25  14  39  22]
+	 [ 12 207  16   9  16  25   2   8]
+	 [  7  38  89  11  82  11  21  36]
+	 [ 15  14  11 224   6   7  11   7]
+	 [  7  11  46  19 144  17  19  32]
+	 [  0  24   6   8   4 240   2  11]
+	 [ 70  11  27  37  40   5  83  22]
+	 [  6  13  22   5  24   7   9 209]]
+
+tf-idf 0.25
+	Activation function: relu
+	Loss function: categorical_hinge
+	Layers: (512,)
+	Test set evaluation: [('loss', 0.8137231703531944), ('categorical_accuracy', 0.5720338981030351), ('top2_acc', 0.8042372883376429), ('top3_acc', 0.8961864408800158)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[ 87  31  16  50  20  13  53  25]
+	 [ 15 225  15  11   6  20   2   1]
+	 [ 13  25 119   8  73  11  16  30]
+	 [ 22   8   5 225   3   9  14   9]
+	 [ 12   8  53  11 136  18  16  41]
+	 [  1  20   5  12   2 245   4   6]
+	 [ 70  15  30  31  27   3  98  21]
+	 [ 14   8  23   3  16   5  11 215]]
 
 
-		[0.958422303805917, 0.504661016747103, 0.7402542374901853, 0.8567796610169491]
-Count 0.97 0.25
-		Activation function: relu
-		Loss function: categorical_hinge
-		Layers: (512,)
-		Test set evaluation: [('loss', 0.9703665567656695), ('categorical_accuracy', 0.5122881355932203), ('top2_acc', 0.7610169489504928), ('top3_acc', 0.8881355930182894)]
-		Confusion Matrix
-		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
-		[[  4  25  16  79   4   8 146  13]
-		 [  0 191  40  31   1  10  17   5]
-		 [  0  40 135  16  14   6  60  24]
-		 [  0   8   3 241   0   2  38   3]
-		 [  0   8  89  18  49  13  88  30]
-		 [  0  44  10  21   0 201   9  10]
-		 [  1   9  23  38   9   1 208   6]
-		 [  0  10  33  19   3   2  48 180]]
+tfidf 0.1
+	Activation function: relu
+	Loss function: categorical_hinge
+	Layers: (512,)
+	Test set evaluation: [('loss', 0.8406482185347606), ('categorical_accuracy', 0.5724576270176193), ('top2_acc', 0.8072033898305084), ('top3_acc', 0.9029661014928656)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[ 84  28  13  43  21  10  79  17]
+	 [ 17 232  11   7   9  13   3   3]
+	 [ 13  27 105   7  86   7  23  27]
+	 [ 22   6   4 206   7   9  35   6]
+	 [ 13   7  58  12 141   9  24  31]
+	 [  2  16   5  11   2 252   1   6]
+	 [ 66  10  30  22  28   3 121  15]
+	 [  6   6  27   9  19   4  14 210]]
 
 
-		[0.9703665567656695, 0.5122881355932203, 0.7610169489504928, 0.8881355930182894]
-Count 0.97 0.1
-		Activation function: relu
-		Loss function: categorical_hinge
-		Layers: (512,)
-		Test set evaluation: [('loss', 0.8724426142239975), ('categorical_accuracy', 0.5627118644067797), ('top2_acc', 0.8754237290156089), ('top3_acc', 0.9567796610169491)]
-		Confusion Matrix
-		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
-		[[ 58  10  39  47  28   9  79  25]
-		 [  6 172  38  16  29  16   5  13]
-		 [  6  13 160   8  69   5  10  24]
-		 [ 12   2  12 219   8   7  24  11]
-		 [  5   1  77  12 138   6  18  38]
-		 [  0   9  13   9   3 250   5   6]
-		 [ 32   5  53  27  33   3 122  20]
-		 [  2   1  47   4  19   1  12 209]]
+	Activation function: relu
+	Loss function: categorical_hinge
+	Layers: (512, 256)
+	Test set evaluation: [('loss', 0.9025003918146683), ('categorical_accuracy', 0.5368644068806858), ('top2_acc', 0.7822033896284588), ('top3_acc', 0.8775423730834055)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[ 87  32  17  44  20  10  70  15]
+	 [ 18 233  16   6   3  13   4   2]
+	 [ 15  31 104   8  77   6  26  28]
+	 [ 27  10   9 192   8   9  34   6]
+	 [ 20  10  77   9 111   7  30  31]
+	 [  3  19   7  12   3 242   1   8]
+	 [ 73  13  39  20  31   2 105  12]
+	 [  8   8  33   9  18   5  21 193]]
 
 
-		[0.8724426142239975, 0.5627118644067797, 0.8754237290156089, 0.9567796610169491]
-tf-idf 0.97 0.5
-		Activation function: relu
-		Loss function: categorical_hinge
-		Layers: (512,)
-		Test set evaluation: [('loss', 0.9490524128331976), ('categorical_accuracy', 0.5088983048826962), ('top2_acc', 0.7436440679986598), ('top3_acc', 0.851694915456287)]
-		Confusion Matrix
-		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
-		[[ 72  27  20  46  19   8  82  21]
-		 [ 16 198  27  10   8  19   7  10]
-		 [ 16  28  96  10  71   8  27  39]
-		 [ 25  15  16 190   7   6  24  12]
-		 [ 23  12  74  13 109  14  24  26]
-		 [  4  28   8   7   5 229   4  10]
-		 [ 69  13  28  22  37   5 102  19]
-		 [  7   7  25   6  24   5  16 205]]
+	Activation function: relu
+	Loss function: categorical_hinge
+	Layers: (512, 256, 128)
+	Test set evaluation: [('loss', 0.9050421387462293), ('categorical_accuracy', 0.5444915255247537), ('top2_acc', 0.7682203391851005), ('top3_acc', 0.8779661016949153)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[ 98  23  18  49  21   9  70   7]
+	 [ 29 218  13   5   8  16   5   1]
+	 [ 20  23 108  10  80   7  23  24]
+	 [ 30   2   7 213   7   8  24   4]
+	 [ 24   5  64  12 134   9  28  19]
+	 [  2  14   9  13   1 250   1   5]
+	 [ 81  10  38  28  33   1  95   9]
+	 [ 20   5  32   8  33   9  19 169]]
+tfidf 0.1
+	Activation function: relu
+	Loss function: categorical_hinge
+	Layers: (512,)
+	Test set evaluation: [('loss', 0.8383591718592887), ('categorical_accuracy', 0.5716101693905006), ('top2_acc', 0.8067796610169492), ('top3_acc', 0.8966101694915254)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[ 90  29  14  48  21  10  68  15]
+	 [ 17 227  11   7  11  16   3   3]
+	 [ 15  27 104   7  86   9  21  26]
+	 [ 23   6   4 216   7   9  25   5]
+	 [ 14   7  56  12 141  13  23  29]
+	 [  2  13   4  11   2 256   1   6]
+	 [ 74  12  31  25  30   3 107  13]
+	 [  8   6  27   9  19   5  13 208]]
 
+	Activation function: relu
+	Loss function: categorical_crossentropy
+	Layers: (512,)
+	Test set evaluation: [('loss', 1.462465318986925), ('categorical_accuracy', 0.5283898305084745), ('top2_acc', 0.7872881355932203), ('top3_acc', 0.8923728811538826)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[ 99  24  13  34  25   9  81  10]
+	 [ 21 213  23   8  12  13   3   2]
+	 [ 28  20 105   6  79   3  27  27]
+	 [ 42   6   8 181   8  12  32   6]
+	 [ 22   4  66   9 131   5  37  21]
+	 [  6  16  17  12  10 221   6   7]
+	 [ 76  11  36  16  31   0 117   8]
+	 [ 17   9  30   9  23   4  23 180]]
 
-		[0.9490524128331976, 0.5088983048826962, 0.7436440679986598, 0.851694915456287]
-tf-idf 0.97 0.25
-		Activation function: relu
-		Loss function: categorical_hinge
-		Layers: (512,)
-		Test set evaluation: [('loss', 0.9389001565464472), ('categorical_accuracy', 0.5165254237288136), ('top2_acc', 0.7567796612189988), ('top3_acc', 0.8673728811538826)]
-		Confusion Matrix
-		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
-		[[ 62  33  13  54  21  12  79  21]
-		 [ 11 229  15  12   4  19   3   2]
-		 [ 14  28 100  12  77   8  24  32]
-		 [ 17  14   6 214   4  10  25   5]
-		 [ 15  13  76  12  95  16  36  32]
-		 [  0  21   8  13   7 238   2   6]
-		 [ 65  18  31  28  32   6  93  22]
-		 [ 13  16  31   5  22   5  15 188]]
+	Activation function: tanh
+	Loss function: categorical_hinge
+	Layers: (512,)
+	Test set evaluation: [('loss', 0.8652680362685252), ('categorical_accuracy', 0.5546610168481277), ('top2_acc', 0.7949152542372881), ('top3_acc', 0.8927966101694915)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[ 89  30  14  42  22  10  70  18]
+	 [ 18 230  11   7  11  13   3   2]
+	 [ 16  29 101   6  86   9  23  25]
+	 [ 29   7   6 196   8   9  34   6]
+	 [ 17   8  63  10 136  10  24  27]
+	 [  3  19   4  10   2 250   1   6]
+	 [ 72  13  33  21  33   2 109  12]
+	 [  7   6  28   8  25   5  18 198]]
 
+	Activation function: tanh
+	Loss function: categorical_crossentropy
+	Layers: (512,)
+	Test set evaluation: [('loss', 1.6905242115764294), ('categorical_accuracy', 0.5127118643057549), ('top2_acc', 0.7733050847457628), ('top3_acc', 0.8805084743742215)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[ 87  28  12  37  24   8  87  12]
+	 [ 22 206  23   8  13  16   5   2]
+	 [ 23  19  97   8  80   5  32  31]
+	 [ 41   6   8 179   8  11  36   6]
+	 [ 15   6  66   9 123   8  45  23]
+	 [  6  17  13  12  10 223   7   7]
+	 [ 74  12  33  15  35   0 117   9]
+	 [ 16   9  29   7  25   6  25 178]]
 
-		[0.9389001565464472, 0.5165254237288136, 0.7567796612189988, 0.8673728811538826]
-tf-idf 0.97 0.1
-		Activation function: relu
-		Loss function: categorical_hinge
-		Layers: (512,)
-		Test set evaluation: [('loss', 0.913820521508233), ('categorical_accuracy', 0.5338983051857706), ('top2_acc', 0.7703389830508475), ('top3_acc', 0.8771186442698462)]
-		Confusion Matrix
-		['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
-		[[ 99  22  18  38  26  12  66  14]
-		 [ 24 219  11   7  11  17   5   1]
-		 [ 15  22  93  10  95   7  27  26]
-		 [ 36   6   4 191   7  11  34   6]
-		 [ 22   6  61   9 131   9  26  31]
-		 [  4  19   5  11   6 242   2   6]
-		 [ 90  13  33  16  32   3  95  13]
-		 [ 14   4  27  12  27   4  17 190]]
+	Activation function: sigmoid
+	Loss function: categorical_hinge
+	Layers: (512,)
+	Test set evaluation: [('loss', 0.7861720155861418), ('categorical_accuracy', 0.5974576269165944), ('top2_acc', 0.8101694913233741), ('top3_acc', 0.9080508476596768)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[ 70  37  11  69  21  12  41  34]
+	 [  2 260   6   6   5  13   0   3]
+	 [  3  30 106   9  81  10   7  49]
+	 [  6   9   6 248   3   7   7   9]
+	 [  6  14  39  17 148  17   8  46]
+	 [  0  19   2   7   1 256   1   9]
+	 [ 60  22  26  39  37   4  71  36]
+	 [  1   8  13   7   9   4   2 251]]
+
+	Activation function: sigmoid
+	Loss function: categorical_crossentropy
+	Layers: (512,)
+	Test set evaluation: [('loss', 1.0564868902755995), ('categorical_accuracy', 0.606779661117974), ('top2_acc', 0.8334745760691368), ('top3_acc', 0.9245762711864407)]
+	Confusion Matrix
+	['Romance', 'War', 'Action', 'Musical', 'Crime', 'Western', 'Comedy', 'Horror']
+	[[108  20   8  40  24  10  70  15]
+	 [ 19 225  18   5  13  12   2   1]
+	 [  9  23 111   6  85   6  23  32]
+	 [ 23   9   2 214   8   7  27   5]
+	 [ 17   4  43   8 166  10  21  26]
+	 [  2  15   6   8   2 249   2  11]
+	 [ 64  13  21  18  29   2 135  13]
+	 [ 14   6  19   6  16   2   8 224]]
